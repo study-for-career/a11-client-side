@@ -32,7 +32,7 @@ const Register = () => {
     }
 
 
-
+    // register user with email and password functionality
     const handleRegister = (e) => {
         e.preventDefault();
         const displayName = e.target.name.value;
@@ -85,7 +85,7 @@ const Register = () => {
             })
     }
 
-
+    // google login functionality
     const handleGoogleLogin = () => {
         googleLogin()
             .then(result => {
