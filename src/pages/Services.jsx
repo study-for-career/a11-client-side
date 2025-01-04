@@ -8,6 +8,7 @@ const Services = () => {
     useEffect(() => {
         document.title = 'Services';
     }, [])
+    // load all services data from the server
     const services = useLoaderData()
 
     const [searchedServices, setSearchedServices] = useState(services)
