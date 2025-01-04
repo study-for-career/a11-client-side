@@ -11,8 +11,11 @@ const Services = () => {
     // load all services data from the server
     const services = useLoaderData()
 
+    // searched services data
     const [searchedServices, setSearchedServices] = useState(services)
 
+
+    // search services function
     const handleSearch = (e) => {
         const inputValue = e.target.value.toLowerCase();
         const filter = services.filter(service => service.title.toLowerCase().includes(inputValue));
