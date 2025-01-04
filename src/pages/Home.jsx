@@ -11,6 +11,7 @@ const Home = () => {
     document.title = 'Home';
   }, [])
 
+  // Toggle the theme of the website
   const { theme } = useContext(AuthContext)
 
   return (
