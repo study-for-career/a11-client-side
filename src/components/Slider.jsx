@@ -1,4 +1,4 @@
-
+// 3 photos slider
 const Slider = () => {
     return (
         <div>
