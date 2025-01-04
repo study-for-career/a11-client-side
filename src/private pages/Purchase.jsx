@@ -27,7 +27,7 @@ const Purchase = () => {
 
     }
 
-
+    // purchase service function
     const handlePurchase = (e) => {
         e.preventDefault();
         const form = e.target;

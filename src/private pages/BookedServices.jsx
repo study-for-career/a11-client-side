@@ -3,7 +3,7 @@ import { AuthContext } from "./AuthProvider";
 import { toast, ToastContainer } from "react-toastify";
 import { Link } from "react-router-dom";
 
-
+// BookedServices Component 
 const BookedServices = () => {
     useEffect(() => {
         document.title = 'Booked Services';
