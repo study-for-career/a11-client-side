@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Loader from "../components/Loader";
 import Swal from "sweetalert2";
 
+// Manage services that are added by the user
 const ManageServices = () => {
     useEffect(() => {
         document.title = 'Manage Services';
