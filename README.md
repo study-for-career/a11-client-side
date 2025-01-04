@@ -1,21 +1,22 @@
 
-# Project Name: Movie Portal
+# Project Name: Learn Plus
 
-Welcome to **Movie Portal**, your one-stop platform for exploring and discovering movies from all genres and styles. Whether you’re a movie enthusiast or just looking for something to watch, we’ve got you covered.
+Welcome to **Learn Plus**, your ultimate online destination for quality education and personalized learning experiences. Whether you are looking to gain new skills, prepare for certifications, or simply explore new topics, Learn Plus provides a comprehensive suite of learning services designed to meet your unique needs.
 
 
 ## Key Features
--  **Browse Movies**: Explore a rich library of movies with detailed information.
--  **Search & Filter**: Easily find movies by title.
--  **Movie Details**: View summaries and more about movies.
--  **Favourite Lists**: Make lists for your favourite movies.
--  **Rate & Review**: Share your opinions by giving star.
--  **Share Movie**: Share your movie with us by uploading.
+-  **Wide Range of Subjects**: From Mathematics to Programming, Languages to Business, our courses and services cover it all.
+-  **Search & Filter**: Easily find services by name of the service.
+-  **Service Details**: View summaries and more about Services.
+-  **Booked Lists**: Make lists for your Booked services.
+-  **Full Control**: Get full control over your all services.
+-  **Find Your Customers**: Upload your services and wait for your services to be selled.
 
 
 ## Live URL
-- **Netlify**: [Movie Portal](https://a10-movie-portal-client.netlify.app/)
-- **Firebase**: [Movie Portal](https://movie-portal-e7f35.web.app/)
+- **Netlify**: [Learn Plus](https://a11-learnplus.netlify.app/)
+## Server URL
+- **Vercel**: [Learn Plus Server](https://learn-plus-server.vercel.app/)
 
 
 

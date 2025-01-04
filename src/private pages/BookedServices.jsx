@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "./AuthProvider";
-import { toast, ToastContainer } from "react-toastify";
 import { Link } from "react-router-dom";
 
 // Show Booked/Purchased Services 
@@ -13,16 +12,6 @@ const BookedServices = () => {
     const { user } = useContext(AuthContext)
     const [bookedServices, setBookedServices] = useState([])
 
-    const notify = () => {
-        toast.error("Failed to Delete", {
-            position: "top-center"
-        })
-    }
-    const notify2 = () => {
-        toast.success("Movie Deleted Successfully", {
-            position: "top-center"
-        })
-    }
 
     useEffect(() => {
         fetch(`https://learn-plus-server.vercel.app/purchased_services/${user.email}`)
@@ -66,7 +55,7 @@ const BookedServices = () => {
                         </div>
                     </div>
             }
-            <ToastContainer></ToastContainer>
+
         </div>
     );
 };

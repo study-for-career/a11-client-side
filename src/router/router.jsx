@@ -6,7 +6,6 @@ import PublicRout from './../routes/PublicRout';
 import Login from './../pages/Login';
 import Register from './../pages/Register';
 import PrivateRoute from './../routes/PrivateRoute';
-import UpdateMovie from '../private pages/UpdateService';
 import ErrorPage from './../pages/ErrorPage';
 import AddService from './../private pages/AddService';
 import Services from "../pages/Services";
@@ -15,6 +14,7 @@ import Purchase from "../private pages/Purchase";
 import BookedServices from './../private pages/BookedServices';
 import ManageServices from './../private pages/ManageServices';
 import ServiceToDo from "../private pages/ServiceToDo";
+import UpdateService from './../private pages/UpdateService';
 
 
 
@@ -71,7 +71,7 @@ const router = createBrowserRouter([
             },
             {
                 path: 'update_service/:id',
-                element: <UpdateMovie></UpdateMovie>,
+                element: <UpdateService></UpdateService>,
                 loader: ({ params }) => fetch(`https://learn-plus-server.vercel.app/services/${params.id}`)
             },
             {

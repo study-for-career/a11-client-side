@@ -29,7 +29,7 @@ const Services = () => {
 
                 <div className="md:w-1/2 lg:w-1/4 py-3 mb-5 mx-auto">
                     <label className="input input-bordered flex items-center gap-2">
-                        <input type="text" onKeyUp={handleSearch} id="search" className="grow" placeholder="Find Your Best Movies" />
+                        <input type="text" onKeyUp={handleSearch} id="search" className="grow" placeholder="Find Your Best Services" />
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 16 16"
