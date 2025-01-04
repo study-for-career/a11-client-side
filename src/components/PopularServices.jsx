@@ -11,7 +11,7 @@ const PopularServices = () => {
         axios.get('https://learn-plus-server.vercel.app/services')
             .then(res => setServices(res.data))
     }, [])
-
+// Popular services section
     return (
         <div className="p-5">
             <div>
