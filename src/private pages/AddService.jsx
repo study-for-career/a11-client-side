@@ -23,7 +23,7 @@ const AddService = () => {
             position: "top-center"
         })
     }
-
+    // Add service function
     const handleAddService = e => {
         e.preventDefault()
 
@@ -43,7 +43,7 @@ const AddService = () => {
             })
     }
 
-// Add Service Form 
+    // Add Service Form 
     return (
         <div className="py-10 px-2 md:px-16">
 
