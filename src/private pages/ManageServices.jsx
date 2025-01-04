@@ -22,6 +22,7 @@ const ManageServices = () => {
         return <Loader></Loader>
     }
 
+    // Delete a service
     const handleDeleteService = (id) => {
         Swal.fire({
             title: "Are you sure?",
