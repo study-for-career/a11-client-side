@@ -3,7 +3,7 @@ import { Link, useLoaderData, useNavigate } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
 
 
-
+// single service details
 const ServiceDetails = () => {
     useEffect(() => {
         document.title = 'Service Details';
