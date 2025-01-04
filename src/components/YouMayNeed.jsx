@@ -13,7 +13,7 @@ const YouMayNeed = () => {
             })
     }, [])
 
-
+    // Another extra section for the home page
     return (
         <div className="p-5">
             <div>

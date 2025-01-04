@@ -9,7 +9,7 @@ const HighlightSection = () => {
     return (
         <div className='bg-gray-800 mb-5'>
             <div className='w-11/12 mx-auto py-10 text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
-                
+
                 <div className='flex gap-3'>
                     <h1 className='text-6xl text-yellow-400'><MdOutlineManageSearch /></h1>
                     <div>
