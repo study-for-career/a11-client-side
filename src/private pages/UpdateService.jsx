@@ -7,7 +7,7 @@ import { useLoaderData } from "react-router-dom";
 import axios from "axios";
 
 
-
+// Update a Service
 const UpdateService = () => {
     useEffect(() => {
         document.title = 'Update Service';
@@ -31,7 +31,7 @@ const UpdateService = () => {
         })
     }
 
-
+// Update service functionallity
     const handleUpdateService = e => {
         e.preventDefault()
         const form = e.target;
