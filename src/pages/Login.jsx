@@ -6,6 +6,7 @@ import { AuthContext } from "../private pages/AuthProvider";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
+// 
 const Login = () => {
     useEffect(() => {
         document.title = 'Login';
@@ -27,7 +28,7 @@ const Login = () => {
         })
 
     }
-
+    // login user function
     const handleLogin = (e) => {
         e.preventDefault();
         const email = e.target.email.value;
