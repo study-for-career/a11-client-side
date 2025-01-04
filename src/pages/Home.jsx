@@ -6,7 +6,7 @@ import PopularServices from "../components/PopularServices";
 import HighlightSection from "../components/HighlightSection";
 
 const Home = () => {
-
+  // Dynamically change the title of the page
   useEffect(() => {
     document.title = 'Home';
   }, [])

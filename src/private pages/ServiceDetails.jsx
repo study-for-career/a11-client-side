@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // single service details
 const ServiceDetails = () => {
+    // dynamically change the title of the page
     useEffect(() => {
         document.title = 'Service Details';
     }, [])

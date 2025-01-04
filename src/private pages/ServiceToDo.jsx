@@ -5,6 +5,11 @@ import { AuthContext } from "./AuthProvider";
 
 const ServiceToDo = () => {
 
+    // Dynamically change the title of the page
+    useEffect(() => {
+        document.title = 'Service To Do';
+    }, [])
+
     const { user } = useContext(AuthContext);
 
     const [purchased, setPurchased] = useState([])

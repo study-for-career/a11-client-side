@@ -7,9 +7,13 @@ import Swal from "sweetalert2";
 
 // Manage services that are added by the user
 const ManageServices = () => {
+
+    // Dynamically change the title of the page
     useEffect(() => {
         document.title = 'Manage Services';
     }, [])
+
+
     const { user, loader } = useContext(AuthContext);
     const [services, setServices] = useState([])
 

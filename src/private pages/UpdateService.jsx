@@ -9,6 +9,8 @@ import axios from "axios";
 
 // Update a Service
 const UpdateService = () => {
+
+    // Dynamically change the title of the page
     useEffect(() => {
         document.title = 'Update Service';
     }, [])
@@ -31,7 +33,7 @@ const UpdateService = () => {
         })
     }
 
-// Update service functionallity
+    // Update service functionallity
     const handleUpdateService = e => {
         e.preventDefault()
         const form = e.target;

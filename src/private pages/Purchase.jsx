@@ -5,6 +5,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 
 const Purchase = () => {
+    // Dynamically change the title of the page
     useEffect(() => {
         document.title = 'Purchase Service';
     }, [])
