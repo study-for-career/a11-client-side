@@ -22,6 +22,7 @@ const Navbar = () => {
 
     </>
 
+    // Dropdown items for dashboard
     const menuListsDropdown = <>
         <li ><Link className="hover:bg-gray-700" to='/add_service'>Add Service</Link></li>
         <li ><Link className="hover:bg-gray-700" to='/manage_services'>Manage Service</Link></li>
@@ -29,6 +30,7 @@ const Navbar = () => {
         <li ><Link className="hover:bg-gray-700" to='/service_todo'>Service-To-Do</Link></li>
     </>
 
+    // logout user on button click
     const handleLogout = () => {
         logoutUser()
             .then(() => {
