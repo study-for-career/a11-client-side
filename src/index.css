@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.star-svg {
+    display: inline-block;
+}
+.active {
+    color: pink
+}
+
+[data-theme="dark"] {
+    background-color: black;
+}
